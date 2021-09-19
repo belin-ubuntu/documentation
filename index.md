@@ -1,23 +1,8 @@
 ---
 layout: home
-title: BeLin 6.0 kiadás - főokldal
+title: BeLin 6.0 kiadás - főoldal
 ---
-<div class="home">
-
-  <h1 class="page-heading">Friss hírek</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y. %B %-d, %a" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+{% include post_lista.html %}
 ## BeLIn 6.0 kiadás - kezdőlap
 
 Üdvözöljük a BeLIn 6.0 kiadás dokumentációs oldalán!  
