@@ -1,5 +1,5 @@
 ---
-title: BeLIn 6.0 kiadás - kezdőlap
+title: A BeLin 6.0 kiadás újdonságai
 layout: page
 ---
 # A BeLin 6.0 kiadás újdonságai

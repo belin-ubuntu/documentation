@@ -2,12 +2,11 @@
 layout: default
 title: BeLin 6.0 kiadás - főoldal
 ---
+{::options parse_block_html="true" /}
 {% include post_lista.html %}
 ## BeLIn 6.0 kiadás - kezdőlap
 
 Üdvözöljük a BeLIn 6.0 kiadás dokumentációs oldalán!  
-  
-  
 
 ## Miért készült a BeLin és miért pont ez a neve?
 
