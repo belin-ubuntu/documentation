@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: BeLin 6.0 kiadás - főoldal
 ---
 {% include post_lista.html %}
