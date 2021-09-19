@@ -17,6 +17,7 @@ url: "https://belin-ubuntu.github.io" # the base hostname & protocol for your si
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: jekyll-theme-cayman
 timezone: Europe/Budapest
 

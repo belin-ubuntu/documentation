@@ -1,10 +1,8 @@
 <div class="home">
-
-  <h2 class="page-heading">Friss hírek</h1>
+<h2 class="page-heading">Friss hírek</h2>
 {% for post in site.posts limit:3 %}
-  <h3>
-    <span class="post-meta"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>        </h2>
-    <p>Létrehozva: {{ post.date | date: "%Y. %B %-d, %a" }}</span>
-    {{ post.excerpt }}
-    {% endfor %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>        </h3>
+<p>Létrehozva: {{ post.date | date: "%Y. %B %-d, %a" }}</p>
+{{ post.excerpt }}
+{% endfor %}
 
