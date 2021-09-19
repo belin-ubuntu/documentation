@@ -6,16 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: BeLin 6.0 kiadás - kezdőlap
+email: hammer.attila@infoalap.hu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  A BeLin 6.0 kiadás egy látássérült felhasználók számára képernyőolvasó és nagyító szoftverrel használható Ubuntu alapú speciális Linux disztribúció.
+baseurl: "/documentation" # the subpath of your site, e.g. /blog
+url: "https://belin-ubuntu.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  belin-ubuntu
 
 # Build settings
 markdown: kramdown
